@@ -58,7 +58,7 @@ class AddDialogUI(object):
         self.priceValue.setSingleStep(50)
         self.priceValue.setValue(499)
         self.volumeValue = QtWidgets.QSpinBox(Dialog)
-        self.volumeValue.setGeometry(QtCore.QRect(110, 210, 80, 21))
+        self.volumeValue.setGeometry(QtCore.QRect(110, 210, 60, 21))
         self.volumeValue.setObjectName("volumeValue")
         self.volumeValue.setMinimum(50)
         self.volumeValue.setMaximum(50000)
