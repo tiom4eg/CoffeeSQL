@@ -163,7 +163,7 @@ class Application(QtWidgets.QWidget, ApplicationUI):
         super().__init__()
         self.currentData = []
         self.setupUi(self)
-        self.con = sqlite3.connect("G:/tiom4eg/.sqlite/coffee.sqlite")
+        self.con = sqlite3.connect("coffee.sqlite")
         self.cur = self.con.cursor()
         self.searchTrigger.clicked.connect(self.search)
         self.createNewTrigger.clicked.connect(self.createNew)
